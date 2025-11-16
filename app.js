@@ -12,7 +12,7 @@ const winningCombos = [
   [2, 5, 8],
   [0, 4, 8],
   [2, 4, 6],
-]; // winning indexes combos
+]; // winning combos
 
 function createBoard() {
   Array(9)
