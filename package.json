@@ -1,0 +1,31 @@
+{
+  "name": "tic-tac-toe-plain-javascript",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prepare": "husky",
+    "format": "prettier . --check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarthikeyanSathiyamoorthi/tic-tac-toe-plain-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarthikeyanSathiyamoorthi/tic-tac-toe-plain-javascript/issues"
+  },
+  "homepage": "https://github.com/KarthikeyanSathiyamoorthi/tic-tac-toe-plain-javascript#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.6.2"
+  }
+}
