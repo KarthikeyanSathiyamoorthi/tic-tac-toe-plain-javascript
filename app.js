@@ -37,6 +37,12 @@ function eventHandler(event) {
   checkScore();
 }
 
+function greet(name) {
+  return "Hello " + name;
+}
+
+greet();
+
 function checkScore() {
   const allSquares = document.querySelectorAll(".square");
   winningCombos.forEach((combo) => {
